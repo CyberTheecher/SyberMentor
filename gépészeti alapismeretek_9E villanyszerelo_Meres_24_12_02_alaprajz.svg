@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+    <!-- Helyiség alaprajz -->
+    <rect x="100" y="100" width="600" height="400" fill="none" stroke="black" stroke-width="3"/>
+    
+    <!-- Ajtó (bal oldalon) -->
+    <path d="M100,150 A90,90 0 0,1 190,150" fill="none" stroke="black" stroke-width="2"/>
+    <line x1="100" y1="150" x2="100" y2="240" stroke="black" stroke-width="3"/>
+    
+    <!-- Elosztószekrény (szemközti fal közepén) -->
+    <rect x="620" y="250" width="40" height="60" fill="none" stroke="blue" stroke-width="2"/>
+    
+    <!-- Kábelcsatorna útvonal -->
+    <path d="M150,120 L700,120 L700,280" fill="none" stroke="red" stroke-width="2" stroke-dasharray="5,5"/>
+    
+    <!-- Rögzítési pontok -->
+    <circle cx="150" cy="120" r="4" fill="green"/>
+    <circle cx="200" cy="120" r="4" fill="green"/>
+    <circle cx="250" cy="120" r="4" fill="green"/>
+    <circle cx="300" cy="120" r="4" fill="green"/>
+    <circle cx="350" cy="120" r="4" fill="green"/>
+    <circle cx="400" cy="120" r="4" fill="green"/>
+    <circle cx="450" cy="120" r="4" fill="green"/>
+    <circle cx="500" cy="120" r="4" fill="green"/>
+    <circle cx="550" cy="120" r="4" fill="green"/>
+    <circle cx="600" cy="120" r="4" fill="green"/>
+    <circle cx="650" cy="120" r="4" fill="green"/>
+    <circle cx="700" cy="120" r="4" fill="green"/>
+    <circle cx="700" cy="170" r="4" fill="green"/>
+    <circle cx="700" cy="220" r="4" fill="green"/>
+    <circle cx="700" cy="270" r="4" fill="green"/>
+    
+    <!-- Méretek -->
+    <line x1="100" y1="80" x2="700" y2="80" stroke="black" stroke-width="1" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+    <text x="380" y="70" text-anchor="middle" font-size="14">4200 mm</text>
+    
+    <line x1="80" y1="100" x2="80" y2="500" stroke="black" stroke-width="1" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+    <text x="60" y="300" text-anchor="middle" font-size="14" transform="rotate(-90, 60, 300)">3600 mm</text>
+    
+    <!-- Jelmagyarázat -->
+    <rect x="100" y="520" width="600" height="60" fill="white" stroke="black" stroke-width="1"/>
+    
+    <circle cx="120" cy="540" r="4" fill="green"/>
+    <text x="140" y="545" font-size="12">Rögzítési pont</text>
+    
+    <line x1="250" y1="540" x2="300" y2="540" stroke="red" stroke-width="2" stroke-dasharray="5,5"/>
+    <text x="320" y="545" font-size="12">Kábelcsatorna</text>
+    
+    <rect x="450" y="535" width="20" height="10" fill="none" stroke="blue" stroke-width="2"/>
+    <text x="480" y="545" font-size="12">Elosztószekrény</text>
+    
+    <!-- Nyilak definíciója -->
+    <defs>
+        <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+            <path d="M0,0 L0,6 L9,3 z" fill="black"/>
+        </marker>
+    </defs>
+    
+    <!-- Méretezési vonalak és feliratok -->
+    <line x1="620" y1="250" x2="620" y2="310" stroke="gray" stroke-width="1" stroke-dasharray="3,3"/>
+    <text x="610" y="280" text-anchor="end" font-size="12">600 mm</text>
+    
+    <line x1="620" y1="250" x2="660" y2="250" stroke="gray" stroke-width="1" stroke-dasharray="3,3"/>
+    <text x="640" y="245" text-anchor="middle" font-size="12">400 mm</text>
+
+    <!-- Magassági méret -->
+    <text x="750" y="280" font-size="12">1400 mm</text>
+    <line x1="740" y1="310" x2="740" y2="250" stroke="gray" stroke-width="1" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+</svg>
