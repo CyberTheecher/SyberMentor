@@ -128,3 +128,72 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+Oktatási projekt specifikus ignorálások
+Ideiglenes dokumentumok
+.tmp
+._tmp
+~$.doc
+~$.ppt
+~$.xls
+Backup fájlok
+*.bak
+*.backup
+_archived/
+_old/
+Média fájlok (nagy méretű)
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.wav
+*.mp3
+*.m4a
+Privát és szenzitív adatok
+**/private/
+**/sensitive/
+**/confidential
+**/personal-data/
+Nagy méretű dokumentumok és archívumok
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+Lokális konfigurációs fájlok
+**/.vscode/
+**/.idea/
+*.sublime-workspace
+*.sublime-project
+Tanulói portfólió munkakönyvtárak
+**/portfolio_drafts/
+**/student_work_in_progress/
+Értékelési adatok
+**/grades/
+**/evaluations/raw/
+**/assessment_data/
+Gamma.app, Mentimeter és Suno ideiglenes fájlok
+**/gamma_temp/
+**/mentimeter_cache/
+**/suno_temp/
+Nagy méretű prezentációk és oktatási anyagok
+/presentations//.pptx
+/resources//.pdf
+/materials//*.docx
+Kivéve a sablonokat és mintákat
+!/templates/
+!/examples/
+!/samples/
+Rendszer fájlok
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+IDE és szerkesztő specifikus
+*.swp
+*.swo
+*~
